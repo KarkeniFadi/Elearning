@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+	<title>Help</title>
+</head>
+<body>
+	<!--------page face---------->
+	<section class="hl-header">
+		<nav>
+			<div class="nav-links" id="navLinks">		
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index3.html">Home</a></li>
+					<li><a href="About Us.html">About</a></li>
+					<li><a href="course.html">Course</a></li>
+					<li><a href="">Community</a>
+					<ul>
+						<div class="nav1">
+                        	<li><a href="https://discord.gg/fbnRddp5">Chat</a></li>
+                        	<li><a href="Help.html">Help</a></li>
+                        </div>
+                    </ul>
+                    </li>
+					<li><a href="Contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>Help</h1>
+	</section>
+
+
+
+	<section class="about-us">
+		<div class="row1">
+			<div class="about-col">
+				    <h1>It's <br>all coming together...</h1>
+				    <p>if you want to chare you project with others people in Community, if you have some problems and you need to check your code or to take some project, you can visit : </p>
+                       <ul><li><a href="https://github.com/">GitHub</a> : It is one of the important sites for programmers around the world.<br>Also It contains a quantity of open source consulting, including large and important projects in the world of technology and programming in general</li>
+                       	<li><a href="https://searchcode.com/">Search code</a> : The site contains more than seven million software projects, and it is free. You can access at any project you want</li><br>
+                       	<li><a href="https://codepen.io/">Code pen</a> : If you are a designer or programmer, the answer to the site will be of great benefit to you.<br>A social networking site for programmers and web designer allows you to write and manage the software, sharing it with the benefit of other codes.</li><br>
+                       	<li><a href="https://codeanywhere.com/">Code AnyWhere</a> : like code pen exactly and it's specify for PHP & PYTHON </li>
+                       	<li><a href="https://stackoverflow.com/">Stack overflow</a> : The site offers a wide range of questions and answers on many topics in computer programming</li>
+                       </ul>
+			</div>
+			<div class="about-col">
+				<img src="img2/help.jpg">
+		</div>
+	</section>
+
+
+
+<!-------footer----->
+<section class="footer">
+		<div class="icons">
+			<i class="fab fa-facebook-f"></i>
+			<i class="fab fa-twitter"></i>
+			<i class="fab fa-instagram"></i>
+			<i class="fab fa-linkedin-in"></i>
+		</div>
+		<p>Copyright &copy 2021. Designed by Student. All Rights Reserved.</p>
+		
+</section>
+
+	<!--------JavaScript for Toggle Menu -------->
+	
+<script>
+		var navLinks=document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right= "-150px";
+		}
+		
+</script>
+
+</body>
+</html>

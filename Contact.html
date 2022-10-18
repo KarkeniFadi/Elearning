@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+	<title>Contact</title>
+</head>
+<body>
+
+	<!--------page face---------->
+
+	<section class="con-header">
+		<nav>
+			<div class="nav-links" id="navLinks">		
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index3.html">Home</a></li>
+					<li><a href="About Us.html">About</a></li>
+					<li><a href="course.html">Course</a></li>
+					<li><a href="">Community</a>
+					<ul>
+						<div class="nav1">
+                        	<li><a href="https://discord.gg/fbnRddp5">Chat</a></li>
+                        	<li><a href="Help.html">Help</a></li>
+                        </div>
+                    </ul>
+                    </li>
+					<li><a href="Contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>Contact</h1>
+	</section>
+
+    <section class="location">
+    	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d204479.33156050212!2d10.00319016058087!3d36.79480081014114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd337f5e7ef543%3A0xd671924e714a0275!2sTunis!5e0!3m2!1sfr!2stn!4v1620495905317!5m2!1sfr!2stn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    	
+    </section>
+    <section class="contact-us">
+    	<div class="row">
+    		<div class="contact-col">
+    			<div>
+    				<i class="fa fa-home"></i>
+    				<span>
+    					<h5>Sahloul, Sousse</h5>
+    					<p>TUNISIA</p>
+    				</span>
+    			</div>
+    			<div>
+    				<i class="fa fa-phone"></i>
+    				<span>
+    					<h5>+216 98 123 456</h5>
+    					<p>Monday to saturday, 10AM to 6PM</p>
+    				</span>
+    			</div>
+    			<div>
+    				<i class="fa fa-envelope-o"></i>
+    				<span>
+    					<h5>fkarkeni@gmail.com</h5>
+    					<p>Email us for more details</p>
+    				</span>
+    			</div>
+    		</div>
+    		
+
+    	<div class="contact-col">
+
+          <form action="form.php" method="post">
+          	<input type="text" name="name" placeholder="Enter you name" required>
+          	<input type="email" name="email" placeholder="Enter your email address" required>
+          	<input type="text" name="subject" placeholder="Enter you Subject" required>
+          	<textarea rows="8" name="message" placeholder="Message" required></textarea>
+          	<button type="submit" class="ho-btn">Send Message</button>
+          </form>
+  	    </div>
+     </div>
+    </section>
+	
+
+
+
+<!-------footer----->
+
+<section class="footer">
+		<div class="icons">
+			<i class="fab fa-facebook-f"></i>
+			<i class="fab fa-twitter"></i>
+			<i class="fab fa-instagram"></i>
+			<i class="fab fa-linkedin-in"></i>
+		</div>
+		<p>Copyright &copy 2021. Designed by Student. All Rights Reserved.</p>
+		
+</section>
+	<!--------JavaScript for  Menu -------->
+	
+<script>
+		var navLinks=document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right= "-150px";
+		}
+		
+	</script>
+
+</body>
+</html>
